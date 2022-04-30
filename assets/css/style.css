@@ -14,7 +14,8 @@ body {
 
 /* headings and logos */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -22,7 +23,7 @@ h1, h2 {
 }
 
 #logo {
-    float: left;   
+    float: left;
     font-size: 280%;
     margin-left: 30px;
 }
@@ -34,7 +35,8 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -84,12 +86,14 @@ h1, h2 {
     from {
         transform: scale(1.0);
     }
+
     to {
         transform: scale(1.1);
     }
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: #fff;
 }
 
@@ -226,7 +230,7 @@ footer {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -246,7 +250,7 @@ footer {
     column-gap: 0;
 }
 
-#photos > img {
+#photos>img {
     width: 100%;
 }
 
@@ -266,7 +270,8 @@ footer {
         margin: 0;
     }
 
-    #left-about, #right-about {
+    #left-about,
+    #right-about {
         width: 100%;
         float: left;
         padding: 0;
@@ -294,4 +299,32 @@ footer {
         margin-bottom: 20px;
         line-height: 25px;
     }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #club-ethos {
+        width: 90%;
+        margin: 0 auto;
+        height: 1200px;
+    }
+
+    .right-about-heading,
+    .left-about-heading {
+        width: inherit;
+    }
+
+    .right-about-heading h2,
+    .left-about-heading h2 {
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    .right-about-heading p,
+    .left-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    } 
 }
